@@ -1,0 +1,85 @@
+{
+  "_from": "ckeditor5-line-height",
+  "_id": "ckeditor5-line-height@0.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-z4ncj5DEomI7cazrjKJz8yXtLxdnsH8CQOoIeRIxRdoOO5pMpMSyBuZXMixgVZf7QrDnhrBw8aJkWFSj3gH8Vw==",
+  "_location": "/ckeditor5-line-height",
+  "_phantomChildren": {
+    "ckeditor5": "11.2.0",
+    "lodash-es": "4.17.15"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ckeditor5-line-height",
+    "name": "ckeditor5-line-height",
+    "escapedName": "ckeditor5-line-height",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ckeditor5-line-height/-/ckeditor5-line-height-0.3.1.tgz",
+  "_shasum": "94e7f95a1c01c32f0a6f2da31beb3f61f654fa38",
+  "_spec": "ckeditor5-line-height",
+  "_where": "C:\\Users\\supor\\Documents\\ckeditor",
+  "author": {
+    "name": "vdfor"
+  },
+  "bugs": {
+    "url": "https://github.com/vdfor/ckeditor5-line-height/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^11.0.1",
+    "@ckeditor/ckeditor5-engine": "^11.0.0",
+    "@ckeditor/ckeditor5-ui": "^11.1.0",
+    "@ckeditor/ckeditor5-utils": "^11.0.0"
+  },
+  "deprecated": false,
+  "description": "LineHeight plugin for CKEditor5",
+  "devDependencies": {
+    "@ckeditor/ckeditor5-cloud-services": "^10.1.0",
+    "@ckeditor/ckeditor5-editor-classic": "^11.0.1",
+    "@ckeditor/ckeditor5-highlight": "^10.0.3",
+    "@ckeditor/ckeditor5-paragraph": "^10.0.3",
+    "eslint": "^5.5.0",
+    "eslint-config-ckeditor5": "^1.0.7",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=6.9.0",
+    "yarn": ">=1.12.0"
+  },
+  "eslintIgnore": [
+    "src/lib/**",
+    "packages/**"
+  ],
+  "files": [
+    "lang",
+    "src",
+    "theme"
+  ],
+  "homepage": "https://github.com/vdfor/ckeditor5-line-height",
+  "license": "GPL-2.0-or-later",
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --quiet"
+    ]
+  },
+  "main": "src/lineheight.js",
+  "name": "ckeditor5-line-height",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdfor/ckeditor5-line-height.git"
+  },
+  "scripts": {
+    "lint": "eslint --quiet '**/*.js'",
+    "precommit": "lint-staged"
+  },
+  "version": "0.3.1"
+}
